@@ -6,8 +6,8 @@
 
 ```mermaid
 graph LR
-    A[Usuário tira foto] --> B[Envia pelo Web App]
-    B --> C[Conta homens/mulheres]
-    C --> D[Sincroniza com OsClass]
+    A[Conteúdo do lugar como videos, fotos ...] --> B[Sistema processa]
+    B --> C[Conta homens/mulheres e descreve como está o lugar e outros atributos]
+    C --> D[Sincroniza]
     D --> E[Atualiza anúncio]
     E --> F[Notifica usuários via WhatsApp]
