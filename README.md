@@ -1,3 +1,28 @@
+
+## Estrutura que organiza onde está cada lugar
+### Cidades
+
+* Salvador:
+* Curitiba:
+* Rio de Janeiro:
+* Foz do iguaçu:
+  * CATEGORIAS:
+      * Baladas e bares
+        * looby, authentic, europa centro ...
+          * Status em tempo real(qtd de homens/mulheres e atributos gerais) do local incluindo descrição daquele momento e video do lugar
+      * Bairros:
+        * Vila A, Centro, Porto Belo ...
+          * Status em tempo real(qtd de homens/mulheres e atributos gerais) do local incluindo descrição daquele momento e video do lugar
+      * Instituições educacionais 
+        * UDC(centro), unioeste campus 1, Fafig, Unifoz, Uniamerica
+          * Status em tempo real(qtd de homens/mulheres e atributos gerais) do local incluindo descrição daquele momento e video do lugar
+
+
+
+
+
+
+
 ![Logo do Projeto](https://github.com/lavodky/fozstatus/blob/main/fluxograma.svg)
 
 
@@ -11,3 +36,5 @@ graph LR
     C --> D[Sincroniza]
     D --> E[Atualiza anúncio]
     E --> F[Notifica usuários via WhatsApp]
+
+
